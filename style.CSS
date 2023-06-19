@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: rgba(4, 2, 2, 0.87);
+    height: 100%
+}
+
+
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #010000;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(228, 224, 224);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #060505;
+    color: rgb(224, 21, 21);
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .pheading button{
+    font-size: 15pxpx;
+    color: #000000;
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1PX sloid #c5c4c4;
+    border-radius: 20px;
+  }
+  .content{
+    background-image: url(R/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #424144;
+    height: 70VH;
+    text-align: end;
+}
+.content h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+
+}
+.content p{
+    color: rgb(239, 15, 15);
+    font-size: 20px;
+
+
+}
+.content button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    background: #050405;
+    color: #ec1010;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sec{
+    padding: 10px 5%;
+
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500PX, 1fr));
+}
+.products .card{
+    width: 500PX;
+    height: 60VH;
+    background: rgba(48, 46, 46, 0.813);
+    box-shadow: 0 10px 20px rgba(230, 229, 229, 0.696);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+
+
+}
+.products .card img{
+    height: 200PX;
+    width: 100%;
+
+
+}
+.products .card .desc{
+    color: rgb(255, 0, 0);
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+.products .card .title{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+}
+.products .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.products .card .box .price{
+    color: #f63e4e;
+    font-size: 2opx;
+    font-weight: bold;
+}
+.products .card .box .btn{
+    font-size: 13px;
+    color: #f63e4e;
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px sloid #f63e4e;
+    border-radius: 20px;
+}
+.products .card .box .btn:hover{
+    cursor: pointer;
+    background-color: #f63e4e;
+    color: white;
+
+}
+#banner {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    background-image: url(h/99.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+
+}
+#banner h4{
+    color: rgb(4, 4, 4);
+    font-size: 16px;
+
+}
+#banner h2{
+    color: #8a0404;
+    font-size: 30px;
+    padding: 10px 0;
+
+}
+#banner h3{
+    color:  rgb(234, 4, 4);
+    font-size: 20px;
+    padding: 10px 0;
+}
+#banner h2 span{
+    color: rgb(62, 24, 227);
+    
+}
+button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(233, 236, 233);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: o.2s;
+
+}
